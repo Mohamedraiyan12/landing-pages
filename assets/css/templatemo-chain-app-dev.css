@@ -1006,6 +1006,18 @@ footer #search input {
   border-bottom: 1px solid #fff;
   width: 100%;
 }
+footer #search textarea{
+  font-size: 15px;
+  color: #fff;
+  width: 100%;
+  outline: none;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+footer #search textarea::placeholder{
+  color: #fff;
+}
 footer #search button {
   letter-spacing: 2px;
   font-weight: 700;
