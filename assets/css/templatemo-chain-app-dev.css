@@ -209,7 +209,7 @@ img{
   .services {
     background-position: center center;
     background-size: cover;
-    background-image: url('../images/4.png');
+    background-image: url('../images/servicebg.png');
     background-position: right left;
     padding-bottom: 60px;
   }
@@ -326,15 +326,16 @@ img{
   } */
   .service-item:hover 
   {
-        /* background-image: url(../images/service-bg1.jpg);
+        /* background-image: url(../images/servicehover.jpg);
         background-position: right left;
         background-repeat: no-repeat;
         background-size: cover; */
-        background: #6087AD;
+        background: #00458B;
+        transition: all 2s;
   }
   /* tst */
   .clientcontent{
-    background-image: url('../images/255.jpg');
+    background-image: url('../images/clientbgimg.jpg');
     background-position: center center !important;
     background-repeat: no-repeat;
     background-size: cover;
