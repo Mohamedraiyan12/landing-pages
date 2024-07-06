@@ -391,7 +391,6 @@ cursor: pointer;
 transition: all .5s ease-in-out;
     position: relative;
 }
-
 .testim .dots .dot.active,
 .testim .dots .dot:hover {
 background: #6CBBB5;
@@ -967,7 +966,7 @@ footer #search input {
   border-bottom: 1px solid #fff;
   width: 100%;
 }
-footer #search textarea{
+/* footer #search textarea{
   font-size: 15px;
   color: #fff;
   width: 100%;
@@ -978,7 +977,11 @@ footer #search textarea{
 }
 footer #search textarea::placeholder{
   color: #fff;
-}
+} */
+ footer #search #message{
+  height: 80px;
+
+ }
 footer #search button {
   letter-spacing: 2px;
   font-weight: 700;
