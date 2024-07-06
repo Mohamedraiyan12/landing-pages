@@ -6,7 +6,113 @@ img{
     width: 100%;
     overflow: hidden;
 }
-.navbar{
+header a{
+  color: #7a7a7a;
+  text-decoration: none;
+}
+.navbarout{
+  background: white;
+  position: sticky;
+  overflow: hidden !important;
+  top: 0%;
+  bottom: 0%;
+  z-index: 4;
+
+}
+header{
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+    transition: all .5s;
+    overflow: hidden;
+    background: white;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+   -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s
+}
+ul{
+  list-style-type: none;
+}
+ul li{
+  margin-top: 15px;
+  display: inline-block;
+  padding: 0px 15px;
+  color: black;
+  font-weight: 600;
+  -webkit-transition: all .5s ease 0s;
+  -moz-transition: all .5s ease 0s;
+ -o-transition: all .5s ease 0s;
+  transition: all .5s ease 0s
+}
+ul li a{
+  letter-spacing: 1px;
+  color: black;
+  transition:  all 0.5s ease 0s;
+}
+ul li a:hover{
+  color: #3FD2C7;
+}
+ul li a.active:hover{
+  color: #3FD2C7;
+}
+.headerbtn{
+  text-decoration: none;
+  text-align: center !important;
+  font-weight: 700;
+  font-size: 10px;
+  background: #3FD2C7;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  transition: all .5s;
+}
+.headerbtn:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px){
+  ul li{
+    display: none;
+  }
+  header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      overflow: hidden;
+      position: sticky !important;
+      z-index: 4 !important;
+      top: 0%;
+      bottom: 0%;
+      transition: all .5s;
+      background: white;
+      -webkit-transition: all .5s ease 0s;
+      -moz-transition: all .5s ease 0s;
+     -o-transition: all .5s ease 0s;
+      transition: all .5s ease 0s
+  }
+  .headerbtn{
+    text-decoration: none;
+    text-align: center !important;
+    font-weight: 700;
+    font-size: 10px;
+    background: #3FD2C7;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    transition: all .5s;
+  }
+  .headerbtn:hover{
+      transform: scale(1.1);
+  }
+}
+/* .navbar{
     background: white;
     overflow: hidden;
     position: sticky !important;
@@ -15,7 +121,7 @@ img{
     bottom: 0%;
     transition: all .5s;
     text-align: center;
-    /* background: white; */
+    background: white;
     -webkit-transition: all .5s ease 0s;
     -moz-transition: all .5s ease 0s;
    -o-transition: all .5s ease 0s;
@@ -77,7 +183,7 @@ img{
     }
 
     
-}
+} */
 /* Homecontent */
 .main-banner{
   background-repeat: no-repeat;
@@ -314,9 +420,6 @@ img{
     transform: translatey(-50%);
     margin-bottom: -150px;
 }
-/* .testim .section-heading{
-    margin
-} */
 .testim .wrap {
 position: relative;
 width: 100%;
@@ -348,12 +451,9 @@ z-index: 22222222;
 .testim .arrow:before {
     cursor: pointer;
 }
-
 .testim .arrow:hover {
     color: #6CBBB5;
 }
-
-
 .testim .arrow.left {
     font-size: 20px;
     left: 70px;
@@ -966,7 +1066,7 @@ footer #search input {
   border-bottom: 1px solid #fff;
   width: 100%;
 }
-/* footer #search textarea{
+footer #search textarea{
   font-size: 15px;
   color: #fff;
   width: 100%;
@@ -977,7 +1077,7 @@ footer #search input {
 }
 footer #search textarea::placeholder{
   color: #fff;
-} */
+}
  footer #search #message{
   height: 80px;
 
@@ -998,34 +1098,12 @@ footer #search button:hover {
   background-color: #fff;
   color: #00458B;
 }
-.footer-widget .logo img {
-  max-width: 96px;
-  margin-bottom: 30px;
-}
 .footer-widget h4 {
+  margin-top: 20px;
   font-size: 20px;
   color: #fff;
   font-weight: 700;
   margin-bottom: 25px;
-}
-.footer-widget ul {
-  display: inline;
-  max-width: 40%;
-  float: left;
-  margin-right: 10%;
-}
-
-.footer-widget ul li {
-  margin-bottom: 10px;
-}
-.footer-widget ul li:last-child {
-  margin-bottom: 0px;
-}
-
-.footer-widget ul li a {
-  font-size: 15px;
-  color: #fff;
-  transition: all .3s;;
 }
 footer .copyright-text p {
   border-top: 1px solid beige;
@@ -1035,7 +1113,7 @@ footer .copyright-text p {
   color: #fff;
 }
 .footer-widget .icons i{
-  margin: 0 10px 0 -3px ;
+  margin: 0 15px 0 -3px ;
   border-radius: 5px;
   padding: 10px;
   background: white;
