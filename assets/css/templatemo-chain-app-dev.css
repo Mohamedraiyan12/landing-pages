@@ -38,16 +38,16 @@ img{
     color: #3FD2C7;
 }
 .headerbtn{
+  text-decoration: none;
   text-align: center !important;
-  font-weight: 600;
+  font-weight: 800;
+  font-size: 15px;
   background: #3FD2C7;
   outline: none;
   border: none;
   border-radius: 5px;
-  letter-spacing: 1px;
-  /* margin-left: 35%; */
   color: white;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 20px;
   transition: all .5s;
 }
 .headerbtn:hover{
@@ -55,6 +55,7 @@ img{
 }
 @media screen and (max-width: 550px) {
     .headerbtn{
+      text-align: center;
         font-weight: 600;
         font-size: 10px;
         background: #3FD2C7;
@@ -62,7 +63,7 @@ img{
         border: none;
         border-radius: 20px;
         letter-spacing: 1px;
-        margin-left: 34%;
+        margin-left: 28%;
         color: white;
         padding: 10px 20px 10px 20px;
         transition: all .5s;
@@ -153,8 +154,8 @@ img{
 .about-us{
     background-position: center center;
     background-size: cover;
-    background-image: url('../images/about-bg.jpg');
-    margin:  20px 0px 0px 0px;
+    overflow: hidden;
+    background-image: url('../images/aboutbg7.png');
 }
 .section-heading{
     padding: 30px;
@@ -211,6 +212,7 @@ img{
     background-size: cover;
     background-image: url('../images/servicebg.png');
     background-position: right left;
+    overflow: hidden;
     padding-bottom: 60px;
   }
   .services  .section-heading p {
@@ -226,7 +228,6 @@ img{
     text-align: center;
   }
   .service-item{
-    /* height: 300px; */
     position: relative;
     z-index: 2;
     padding: 30px;
@@ -237,18 +238,9 @@ img{
     margin-bottom: 10px;
     transition: all .5s;
   }
-  /* .service-item .icon {
-    color: black;
-    margin-left: 0px;
-    margin-bottom: 30px;
-    background-repeat: no-repeat;
-    /* width: 190px;
-    height: 100px; */
-    /* font-size:50px;
-    transition: all .3s; */
-  /* } */
   .service-item .icon  img{
     display: block;
+    overflow: hidden;
     color: black;
     margin-left: 0px;
     margin-bottom: 30px;
@@ -294,46 +286,13 @@ img{
   .service-item:hover .text-button a {
     color: #fff;
   }
-  /* .first-service .icon {
-    background-image: url(../images/service-icon-01.png);
-  }
-  
-  .first-service:hover .icon {
-    background-image: url(../images/service-icon-hover-01.png);
-  }
-   */
-  /* .second-service .icon {
-    background-image: url(../images/service-icon-02.png);
-  }
-  
-  .second-service:hover .icon {
-    background-image: url(../images/service-icon-hover-02.png);
-  } */
-
-  /* .third-service .icon {
-    background-image: url(../images/service-icon-03.png);
-  }
-  
-  .third-service:hover .icon {
-    background-image: url(../images/service-icon-hover-03.png);
-  } */
-  /* .fourth-service .icon {
-    background-image: url(../images/service-icon-04.png);
-  }
-  
-  .fourth-service:hover .icon {
-    background-image: url(../images/service-icon-hover-04.png);
-  } */
+ 
   .service-item:hover 
   {
-        /* background-image: url(../images/servicehover.jpg);
-        background-position: right left;
-        background-repeat: no-repeat;
-        background-size: cover; */
         background: #00458B;
         transition: all 2s;
   }
-  /* tst */
+  /* client */
   .clientcontent{
     background-image: url('../images/clientbgimg.jpg');
     background-position: center center !important;
@@ -972,7 +931,7 @@ background: linear-gradient(90deg, rgba(96,135,173,1) 26%, rgba(108,187,181,1) 5
   padding-bottom: 10px;
 }
 footer .section-heading {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 footer li{
   list-style-type: none;
@@ -989,7 +948,7 @@ footer .section-heading h4 {
 }
 
 footer #search {
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 footer #search input::placeholder {
@@ -1042,7 +1001,7 @@ footer #search button:hover {
   font-size: 20px;
   color: #fff;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 .footer-widget ul {
   display: inline;
@@ -1066,7 +1025,7 @@ footer #search button:hover {
 footer .copyright-text p {
   border-top: 1px solid beige;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 0px;
   color: #fff;
 }
