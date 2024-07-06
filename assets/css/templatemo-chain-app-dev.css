@@ -297,6 +297,7 @@ img{
     background-image: url('../images/clientbgimg.jpg');
     background-position: center center !important;
     background-repeat: no-repeat;
+    overflow: hidden;
     background-size: cover;
   }
   .testim {
@@ -926,6 +927,7 @@ background: linear-gradient(90deg, rgba(96,135,173,1) 26%, rgba(108,187,181,1) 5
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
   margin-top: 10px;
   padding-top: 50px;
   padding-bottom: 10px;
