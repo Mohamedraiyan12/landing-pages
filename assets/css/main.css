@@ -229,13 +229,9 @@ ul li a.active:hover{
     z-index: 5;
     overflow: hidden;
 }
-  .about-us .box-item h4 a {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
-    color: #00458B;
-    transition: all .3s;
-  }
+.about-us .leftcontent{
+  overflow: hidden;
+}
   /* srvv */
   .services {
     background-position: center center;
@@ -276,7 +272,7 @@ ul li a.active:hover{
     width: 40px;
     height: 40px;
     transition: all .1s;
-    overflow: hidden !important;
+    overflow: hidden;
   }
   .service-item h4 {
     color: #00458B;
@@ -315,7 +311,6 @@ ul li a.active:hover{
   .service-item:hover .text-button a {
     color: #fff;
   }
- 
   .service-item:hover 
   {
         background: #00458B;
@@ -348,6 +343,7 @@ ul li a.active:hover{
     overflow: hidden;
   }
   .border-button a:hover{
+    overflow: hidden;
     color: #00458B;
     text-decoration: none;
     background: transparent;
