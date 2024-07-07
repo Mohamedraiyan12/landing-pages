@@ -197,12 +197,9 @@ ul li a.active:hover{
     }
 }
 /* about */
-/* .about-us{
-    background-position: center center;
-    background-size: cover;
-    overflow: hidden;
-    background-image: url('../images/aboutbg7.png');
-} */
+.about-us{
+  overflow: hidden;
+}
 .section-heading{
     padding: 30px;
 }
@@ -224,12 +221,12 @@ ul li a.active:hover{
     color: #afafaf;
     margin-top: 10px;
  }
-.right-image img{
+.right-image-about img{
     position: relative;
     z-index: 5;
     overflow: hidden;
 }
-.about-us .leftcontent{
+.about-us .leftcontent p{ 
   overflow: hidden;
 }
   /* srvv */
@@ -320,6 +317,7 @@ ul li a.active:hover{
   /* courses */
     
   .course-tables {
+    overflow: hidden;
     padding-top: 10px;
   }
   
@@ -480,7 +478,6 @@ footer {
   width: 100%;
   padding: 200px 0px 0px 0px;
   overflow: hidden;
-  margin-top: 10px;
   padding-bottom: 10px;
 }
 footer .section-heading {
