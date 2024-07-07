@@ -189,6 +189,7 @@ ul li a.active:hover{
       outline: none;
       border: none;
       border-radius: 5px;
+      overflow: hidden;
       letter-spacing: 2px;
       font-size: 14px;
       color: white;
@@ -242,7 +243,7 @@ ul li a.active:hover{
     background-size: cover;
     background-image: url('../images/servicebgimage.png');
     background-position: right left;
-    overflow: hidden !important;
+    overflow: hidden;
     padding-bottom: 60px;
   }
   .services  .section-heading p {
@@ -270,13 +271,13 @@ ul li a.active:hover{
     transition: all .5s;
   }
   .service-item .icon  img{
-    overflow: hidden;
     color: black;
     margin-left: 0px;
     margin-bottom: 30px;
     width: 40px;
     height: 40px;
     transition: all .1s;
+    overflow: hidden !important;
   }
   .service-item h4 {
     color: #00458B;
@@ -548,6 +549,7 @@ footer #search button {
   color: #fff;
   width: 100%;
   transition: all .5s;
+  overflow: hidden;
 }
 footer #search button:hover {
   background-color: #fff;
@@ -571,6 +573,7 @@ footer .copyright-text p {
   margin-left: 60px;
 }
 .footer-widget .icons i{
+  overflow: hidden;
   margin: 0 10px 0 -3px ;
   border-radius: 5px;
   padding: 8px;
