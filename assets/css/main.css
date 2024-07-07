@@ -224,7 +224,7 @@ ul li a.active:hover{
 .right-image img{
     position: relative;
     z-index: 5;
-    overflow: hidden;
+    overflow: hidden !important;
 }
   .about-us .box-item h4 a {
     text-decoration: none;
@@ -239,7 +239,7 @@ ul li a.active:hover{
     background-size: cover;
     background-image: url('../images/servicebgimage.png');
     background-position: right left;
-    overflow: hidden;
+    overflow: hidden !important;
     padding-bottom: 60px;
   }
   .services  .section-heading p {
@@ -261,6 +261,7 @@ ul li a.active:hover{
     box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
     background-color: #fff;
     border-radius: 10px;
+    overflow: hidden;
     border-top-right-radius: 50px;
     margin-bottom: 10px;
     transition: all .5s;
@@ -343,6 +344,7 @@ ul li a.active:hover{
     padding: 10px 20px;
     font-weight: 700;
     border-radius: 5px;
+    overflow: hidden;
   }
   .border-button a:hover{
     color: #00458B;
@@ -358,10 +360,10 @@ ul li a.active:hover{
     text-align: center;
     position: relative;
     z-index: 1;
-    overflow: hidden;
   }
   
   .course-item-regular:before {
+    overflow: hidden;
     position: absolute;
     top: 0;
     left: 0;
@@ -373,6 +375,7 @@ ul li a.active:hover{
   }
   
   .course-item-regular:after {
+    overflow: hidden;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -423,6 +426,7 @@ ul li a.active:hover{
   }
   
   .course-item-pro:before {
+    overflow: hidden;
     position: absolute;
     top: 0;
     left: 0;
@@ -434,6 +438,7 @@ ul li a.active:hover{
   }
   
   .course-item-pro:after {
+    overflow: hidden;
     position: absolute;
     bottom: 0;
     right: 0;
