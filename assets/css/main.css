@@ -19,8 +19,8 @@ header a{
   z-index: 5;
 }
 header img{
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   overflow: hidden;
 }
 header{
@@ -116,6 +116,11 @@ ul li a.active:hover{
   }
   .headerbtn:hover{
       transform: scale(1.1);
+  }
+  header img{
+    height: 70px;
+    width: 100px;
+    overflow: hidden;
   }
 }
 
@@ -496,11 +501,9 @@ footer .section-heading h4 {
   margin-right: 13%;
   text-align: center;
 }
-
 footer #search {
   margin-bottom: 20px;
 }
-
 footer #search input::placeholder {
   color: white;
 }
