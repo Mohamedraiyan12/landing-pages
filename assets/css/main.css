@@ -19,8 +19,9 @@ header a{
   z-index: 5;
 }
 header img{
+  /* background: black; */
   width: 100px;
-  height: 100px;
+  height: 80px;
   overflow: hidden;
 }
 header{
@@ -123,10 +124,7 @@ ul li a.active:hover{
     overflow: hidden;
   }
 }
-
 /* Homecontent */
-
-
 .home-content{
   background-repeat: no-repeat;
   background-image: url('../images/homebgimg.jpg');
@@ -557,6 +555,9 @@ footer #search button:hover {
   font-weight: 700;
   margin-bottom: 25px;
 }
+footer .contact{
+  display: inline-block;
+}
 footer .copyright-text p {
   border-top: 1px solid beige;
   text-align: center;
@@ -590,7 +591,10 @@ footer p a {
 footer p a:hover {
   opacity: 0.75;
   color: #fff;
-} 
+}
+footer .hidden-contact{
+  display: none;
+}
 @media screen and (max-width: 550px){
   .copyright-text{
       font-size: 10px;
@@ -608,5 +612,11 @@ footer p a:hover {
   footer .allicon{
     margin-left: 0px;
   }
-  
+  footer .contact{
+    display: none;
+  }
+  footer .hidden-contact{
+    margin-top: 40px;
+    display: block;
+  }
 }
