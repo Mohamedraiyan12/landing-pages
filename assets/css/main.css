@@ -607,15 +607,16 @@ footer .hidden-contact{
       text-align: center;
     }
     .footer-widget form{
-      margin: 0px 60px 0 60px;
+      margin: 0px 20px 0 20px;
       text-align: center;
     }
-    .allicon{
+    /* .allicon{
       margin: 0px 60px 0 60px !important;
     }
     .hidden-contact{
+      position: relative;
       margin: 0px 60px 0px 60px;
-    }
+    } */
     footer #search button {
       letter-spacing: 2px;
       font-weight: 700;
@@ -630,8 +631,8 @@ footer .hidden-contact{
       overflow: hidden;
     }
     footer #search button:hover {
-      background-color: #fff;
-      color: #00458B;
+      background-color: white;
+      color: white;
     }
     footer #search input {
       font-size: 12px;
@@ -653,7 +654,22 @@ footer .hidden-contact{
     display: none;
   }
   footer .hidden-contact{
-    margin-top: 40px;
+    font-size: 12px;
     display: block;
   }
-}
+  .footerouter{
+    margin: 0px 22px 0px 22px;
+    justify-content: space-around;
+    display: flex;
+    overflow: hidden !important;
+   }
+   .footer-widget .icons i{
+    overflow: hidden;
+    margin: 0 10px 0 -3px ;
+    border-radius: 5px;
+    padding: 5px;
+    background: white;
+    font-size: 12px;
+    transition: all .5s;
+  }
+  }
