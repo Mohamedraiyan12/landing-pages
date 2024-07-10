@@ -7,7 +7,7 @@ img{
     overflow: hidden;
 }
 header a{
-  color: #7a7a7a;
+  color: hsl(0, 0%, 48%);
   text-decoration: none;
 }
 .navbarouter{
@@ -127,7 +127,7 @@ ul li a.active:hover{
 /* Homecontent */
 .home-content{
   background-repeat: no-repeat;
-  background-image: url('../images/homebgimg.jpg');
+  background-image: url('../images/homebgimg2.jpg');
   background-position: center center;
   background-size: cover;
   padding: 100px 120px 100px 100px;
@@ -135,12 +135,17 @@ ul li a.active:hover{
   z-index: 2;
   overflow: hidden !important;
 }
+.left-content h3{
+  font-size: 40px !important;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px#00458B;
+  color: #00458B;
+}
+.left-content h4{
+  font-weight: 700;
+}
 .left-content{
   margin-top: 50px;
-}
-.left-content  h2{
-    color: #00458B;
-    font-size: 50px;
 }
 .left-content p{
     color: #afafaf;
@@ -177,12 +182,16 @@ ul li a.active:hover{
     .left-content{
         margin-bottom: 40px;
     }
-    .left-content  h2{
+    .left-content h3{
           color: #00458B;
-          font-size: 33px;
+          font-size: 29px !important;
+      }
+      .left-content h4{
+        font-weight: 700;
+        font-size: 20px;
       }
       .left-content p{
-        font-size: 13px;
+        font-size: 11px;
           color: #afafaf;
       }
       .homebtn{
@@ -232,6 +241,10 @@ ul li a.active:hover{
 .about-us .leftcontent p{ 
   overflow: hidden;
 }
+.leftcontent p{
+  font-size: 20px;
+  color: #afafaf;
+}
   /* srvv */
   .services {
     background-position: center center;
@@ -242,6 +255,7 @@ ul li a.active:hover{
     padding-bottom: 60px;
   }
   .services  .section-heading p {
+    width: 100% !important;
     margin-top: 10px;
     margin-left: 18%;
     margin-right: 18%;
@@ -256,10 +270,11 @@ ul li a.active:hover{
   .service-item{
     position: relative;
     z-index: 2;
-    padding: 30px;
+    padding: 20px;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
     background-color: #fff;
     border-radius: 10px;
+    height:  420px;
     overflow: hidden;
     border-top-right-radius: 50px;
     margin-bottom: 10px;
@@ -279,12 +294,12 @@ ul li a.active:hover{
     transition: all .3s;
     font-size: 15px;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   .service-item p {
+    color: #afafaf;
     transition: all .3s;
-    font-size: 15px;
-    margin-bottom: 20px;
+    font-size: 14px;
   }
   .servicebtn{
     font-weight: 600;
@@ -317,13 +332,28 @@ ul li a.active:hover{
         transition: all 2s;
   }
 
+  @media screen and (max-width:900px) {
+    .service-item{
+      position: relative;
+      z-index: 2;
+      padding: 40px;
+      box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+      background-color: #fff;
+      border-radius: 10px;
+      height: auto;
+      overflow: hidden;
+      border-top-right-radius: 50px;
+      margin-bottom: 10px;
+      transition: all .5s;
+    }
+    
+  }
   /* courses */
     
   .course-tables {
     overflow: hidden;
     padding-top: 10px;
   }
-  
   .course-tables  .section-heading {
     text-align: center;
     margin-bottom: 10px;
@@ -331,8 +361,7 @@ ul li a.active:hover{
   
   .course-tables  .section-heading p {
     margin-top: 10px;
-    margin-left: 18%;
-    margin-right: 18%;
+    width: 100%;
   }
   .border-button a{
     color: white;
@@ -358,6 +387,10 @@ ul li a.active:hover{
     text-align: center;
     position: relative;
     z-index: 1;
+  }
+  .first p{
+    margin-bottom: 120px !important;
+
   }
   
   .course-item-regular:before {
@@ -568,6 +601,9 @@ footer .copyright-text p {
 .allicon{
   margin-left: 60px;
 }
+.footer-widget .icons a{
+  color: black;
+}
 .footer-widget .icons i{
   overflow: hidden;
   margin: 0 10px 0 -3px ;
@@ -632,7 +668,7 @@ footer .hidden-contact{
     }
     footer #search button:hover {
       background-color: white;
-      color: white;
+      color: #00458B;
     }
     footer #search input {
       font-size: 12px;
