@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <title>techizsite</title>
+    <title>NothingFirst - Let's grow from zero to one</title>
+    <link rel="icon" type="" href="./assets/images/logo1.png">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,6 +22,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
+    <script type="text/javascript">
+      (function() {
+          emailjs.init({
+            publicKey: "jHWBJ5Y7szUpUc3xa",
+          });
+      })();
+      </script> -->
+
+
   </head>
   <body>
     <div class="container-fluid navbarouter wow fadeInDown" id="top" data-wow-duration="0.5s" data-wow-delay="0.1s">
@@ -50,11 +62,10 @@
                       <div class="col-lg-12">
                         <h3>Welcome to <span class="autochangedword">NothingFirst</span></h3>
                         <h4>We Building Tomorrow, Today !</h4>
-                        <p>Welcome to NothingFirst, we are starting from scratch to create something truly 
-                          incredible. Let’s make it together. We are a group of talented people devoted to 
-                          creating and ready to become key players in the IT sphere. For you whether you are 
-                          a start-up or an already existing company, we are here to help you from the time 
-                          when you only have an idea and a dream until that idea becomes reality.</p>
+                        <p>Hey there! We are just some young people interested in business and technology, 
+                          and that is why we named our project We’re NothingFirst. Just like you we began 
+                          with a dream and passion to make the imagined a reality. Our mission is simple: for 
+                          us and our clients/partners to help expand together and build digital for the better.</p>
                       </div>
                     </div>
                   </div>
@@ -75,17 +86,18 @@
         <div class="row wow fadeInDown "data-wow-duration="0.5s" data-wow-delay="0.1s" >
         <div class="section-heading">
             <h4>About <em>What We Do</em> &amp; Who We Are</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
+
         </div>
         </div>
       <div class="row">
         <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
           <div class="row">
           <div class="leftcontent">
-          <p>Hey there! We are just some young people interested in business and technology, 
-            and that is why we named our project We’re NothingFirst. Just like you we began 
-            with a dream and passion to make the imagined a reality. Our mission is simple: for 
-            us and our clients/partners to help expand together and build digital for the better.</p>
+            <p>Welcome to NothingFirst, we are starting from scratch to create something truly 
+              incredible. Let’s make it together. We are a group of talented people devoted to 
+              creating and ready to become key players in the IT sphere. For you whether you are 
+              a start-up or an already existing company, we are here to help you from the time 
+              when you only have an idea and a dream until that idea becomes reality.</p>
           </div>
           </div>
         </div>
@@ -143,7 +155,7 @@
               <img src="./assets/images/service3.jpg">
             </div>
             <h4>E-commerce Development</h4>
-            <p></p>
+            <p>We at NothingFirst focus on the development of secure mobile first e-commerce websites that will help a business grow. We employ a team of experts to ensure we come up with professional online stores that meet the client’s specifications and preferences. We include secure payment methods that allow you to purchase our products, easy to use tools for managing your products, and SEO services to help you rank on the search engines. Further assistance and cost-effective services form the major policies of our business, while developing valuable solutions that correspond to your business characteristics and customer needs. We are ready to offer you the professional services to create the fantastic and efficient e-commerce site right now.</p>
           </div>
         </div>
         <div class="col-lg-3  wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
@@ -170,10 +182,10 @@
         <div class="col-lg-8 offset-lg-2 wow fadeInDown" id="top" data-wow-duration="0.5s" data-wow-delay="0.1s">
           <div class="section-heading">
             <h4>We offered  <em> Courses </em> You Can Get</h4>
-            <p>At NothingFirst, we're passionate about empowering others with practical skills that 
+            <!-- <p>At NothingFirst, we're passionate about empowering others with practical skills that 
               matter:At NothingFirst, we're passionate about empowering others with practical 
               skills that matter:
-              </p>
+              </p> -->
           </div>
         </div>
         <div class="col-lg-4 wow fadeInLeft" id="top" data-wow-duration="0.5s" data-wow-delay="0.1s">
@@ -248,35 +260,36 @@
             </div>
             <div class="col-lg-5">
               <div class="footer-widget">
-                  <form id="search" action="https://api.web3forms.com/submit" method="POST">
+                  <form id="search">
+                  <!-- <form id="search" action="https://api.web3forms.com/submit" method="POST"> -->
                    <div class="row">
                       <div class="col-lg-6 col-sm-6">
                         <fieldset>
-                          <input type="text" name="name" class="name" placeholder="Enter Your Name..." autocomplete="on" required>
+                          <input type="text" name="name" id="name" class="name" placeholder="Enter Your Name..." autocomplete="on" required>
                         </fieldset>
                       </div>
                       <div class="col-lg-6 col-sm-6">
                         <fieldset>
-                          <input type="email" name="email" class="email" placeholder="Email Address..." autocomplete="on" required>
+                          <input type="email" name="email" id="phone" class="email" placeholder="Email Address..." autocomplete="on" required>
                         </fieldset>
                       </div>
                       <div class="col-lg-12 col-sm-12 mt-2">
                         <fieldset>
-                          <input type="text" name="meessage" class="message"placeholder ="Enter your Message" required> 
+                          <input type="text" name="message"  id="message" class="message"placeholder ="Enter your Message" required> 
                         </fieldset>
                       <div class="col-lg-12 col-sm-12 mt-4">
                         <fieldset>
-                          <button type="submit" id="btn" onclick=" return pop()" class="main-button">Send Request <i class="fa fa-angle-right"></i></button>
+                          <button type="submit" id="btn" onclick="emailsend()" class="main-button">Send Request <i class="fa fa-angle-right"></i></button>
                         </fieldset>
                       </div>
-                      <div class="col-lg-6 col-sm-6">
+                      <!-- <div class="col-lg-6 col-sm-6">
                         <fieldset>
                           <input type="hidden" name="access_key" class="name" value="ec8f5a87-4873-420a-8cb5-8dab5523ce9c">
                         </fieldset>
                       <fieldset>
                         <input type="hidden" name="redirect" value="https://main--techiz.netlify.app/">
                       </fieldset>
-                      </div>
+                      </div> -->
                     </div>
                   </form>
                 </div>
@@ -300,12 +313,27 @@
             </div>
             <div class="col-lg-12">
               <div class="copyright-text">
-                <p>Copyright © 2024 App Dev Company. All Rights Reserved. 
-              <br>Design by <a href="https://main--techiz.netlify.app/" target="_blank" title="css templates">techiz</a></p>
+                <p>Copyright © 2024. All Rights Reserved. 
+              <br>Developed by <a href="https://main--techiz.netlify.app/" target="_blank" title="css templates">NothingFirst</a></p>
               </div>
             </div>
           </div>
         </footer>
+<!-- <script>
+function emailsend() {
+var username = document.getElementById('name').value
+var email = document.getElementById('email').value
+var message = document.getElementById('messages').value
+
+    var parms = {
+        email : email,
+        name : username,
+        message : message
+    };
+    emailjs.send('service_98c88bj','template_riev8ys',parms)
+    .then(alert("susfully"))
+}
+        </script> -->
 <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>
@@ -319,4 +347,6 @@
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
   <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
   </body>

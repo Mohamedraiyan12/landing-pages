@@ -148,7 +148,9 @@ ul li a.active:hover{
   margin-top: 50px;
 }
 .left-content p{
-    color: #afafaf;
+  font-size: 17px;
+    /* color: #afafaf;  */
+    color: black;
 }
 .homebtn{
     font-weight: 600;
@@ -239,6 +241,7 @@ ul li a.active:hover{
     overflow: hidden;
 }
 .about-us .leftcontent p{ 
+  color: black;
   overflow: hidden;
 }
 .leftcontent p{
@@ -274,7 +277,7 @@ ul li a.active:hover{
     box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
     background-color: #fff;
     border-radius: 10px;
-    height:  420px;
+    height:  480px;
     overflow: hidden;
     border-top-right-radius: 50px;
     margin-bottom: 10px;
@@ -297,9 +300,10 @@ ul li a.active:hover{
     margin-bottom: 10px;
   }
   .service-item p {
-    color: #afafaf;
+    /* color: #afafaf; */
+    color: black;
     transition: all .3s;
-    font-size: 14px;
+    font-size: 15px;
   }
   .servicebtn{
     font-weight: 600;
@@ -390,7 +394,6 @@ ul li a.active:hover{
   }
   .first p{
     margin-bottom: 120px !important;
-
   }
   
   .course-item-regular:before {
@@ -432,13 +435,16 @@ ul li a.active:hover{
   }
   
   .course-item-regular p{
-    color: #afafaf;
+    color: black;
+    /* color: #afafaf; */
     font-size: 15px;
-    margin-bottom: 15px;
+    /* margin-bottom: 20px; */
   }
   .course-item-pro p{
-    color: #afafaf;
+
+    /* color: #afafaf; */
     font-size: 15px;
+    color: black;
     margin-bottom: 15px;
   }
   .course-item-regular .border-button {
@@ -467,7 +473,6 @@ ul li a.active:hover{
     width: 281px;
     height: 251px;
   }
-  
   .course-item-pro:after {
     overflow: hidden;
     position: absolute;
