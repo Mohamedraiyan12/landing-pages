@@ -18,11 +18,11 @@ header a{
   bottom: 0%;
   z-index: 5;
 }
-header img{
+header  .logo img{
   /* background: black; */
-  width: 100px;
-  height: 80px;
-  overflow: hidden;
+  width: 250px;
+  line-height: 100px;
+  overflow: hidden !important;
 }
 header{
   height: 100px;
@@ -118,9 +118,9 @@ ul li a.active:hover{
   .headerbtn:hover{
       transform: scale(1.1);
   }
-  header img{
-    height: 70px;
-    width: 100px;
+  header  .logo img{
+    line-height: 60px;
+    width: 160px;
     overflow: hidden;
   }
 }
@@ -193,8 +193,12 @@ ul li a.active:hover{
         font-weight: 700;
         font-size: 20px;
       }
+      p{
+        text-align: justify;
+      }
       .left-content p{
-        font-size: 11px;
+        text-align: justify;
+        font-size: 14px;
           color: #afafaf;
       }
       .homebtn{
