@@ -66,7 +66,7 @@ ul li a.active:hover{
   text-decoration: none;
   text-align: center !important;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 15px;
   background: #3FD2C7;
   outline: none;
   border: none;
@@ -149,8 +149,9 @@ ul li a.active:hover{
 }
 .left-content p{
   font-size: 17px;
-    /* color: #afafaf;  */
-    color: black;
+    color: #afafaf; 
+    font-weight: 500;
+    /* color: black; */
 }
 .homebtn{
     font-weight: 600;
@@ -240,13 +241,15 @@ ul li a.active:hover{
     z-index: 5;
     overflow: hidden;
 }
-.about-us .leftcontent p{ 
+/* .about-us .leftcontent p{ 
   color: black;
   overflow: hidden;
-}
+} */
 .leftcontent p{
   font-size: 20px;
+  font-weight: 500;
   color: #afafaf;
+  /* font-weight: 500; */
 }
   /* srvv */
   .services {
@@ -301,8 +304,9 @@ ul li a.active:hover{
   }
   .service-item p {
     /* color: #afafaf; */
-    color: black;
+    color: #afafaf;
     transition: all .3s;
+    font-weight: 500;
     font-size: 15px;
   }
   .servicebtn{
@@ -433,9 +437,10 @@ ul li a.active:hover{
     margin-bottom: 30px;
   }
   .course-item-regular p{
-    color: black;
-    /* color: #afafaf; */
+    /* color: black; */
+    color: #afafaf;
     font-size: 15px;
+    font-weight: 500;
     /* margin-bottom: 20px; */
   }
   .course-item-pro p{
@@ -443,6 +448,7 @@ ul li a.active:hover{
     /* color: #afafaf; */
     font-size: 15px;
     color: black;
+    font-weight: 500;
     margin-bottom: 15px;
   }
   .course-item-regular .border-button {
