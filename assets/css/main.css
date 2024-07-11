@@ -444,10 +444,8 @@ ul li a.active:hover{
     /* margin-bottom: 20px; */
   }
   .course-item-pro p{
-
-    /* color: #afafaf; */
+    color: #afafaf;
     font-size: 15px;
-    color: black;
     font-weight: 500;
     margin-bottom: 15px;
   }
