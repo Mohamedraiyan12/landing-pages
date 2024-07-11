@@ -344,11 +344,11 @@ ul li a.active:hover{
     .service-item{
       position: relative;
       z-index: 2;
-      padding: 40px;
+      padding: 20px;
       box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
       background-color: #fff;
       border-radius: 10px;
-      height: auto !important;
+      height: auto;
       overflow: hidden;
       border-top-right-radius: 50px;
       margin-bottom: 10px;
