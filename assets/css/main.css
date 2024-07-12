@@ -280,7 +280,7 @@ ul li a.active:hover{
   .service-item{
     position: relative;
     z-index: 2;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
     background-color: #fff;
     border-radius: 10px;
@@ -311,7 +311,7 @@ ul li a.active:hover{
     color: #afafaf;
     transition: all .3s;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
   }
   .servicebtn{
     font-weight: 600;
@@ -605,7 +605,8 @@ footer .contact{
 footer .copyright-text p {
   border-top: 1px solid beige;
   text-align: center;
-  margin-top: 20px;
+  padding: 10px;
+  margin-top: 10px;
   margin-bottom: 0px;
   color: #fff;
 }
@@ -701,8 +702,11 @@ footer .hidden-contact{
     display: none;
   }
   footer .hidden-contact{
-    font-size: 12px;
+      font-size: 12px;
     display: block;
+  }
+  footer .hidden-contact .contactno {
+    margin-bottom: 5px;
   }
   .footerouter{
     margin: 0px 22px 0px 22px;
