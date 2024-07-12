@@ -11,30 +11,44 @@
 // const message = document.getElementById("messages");
 
 function emailsend() {
-    // let boymsg = `nam: ${username.value}<br>mail:${emails.value}<br> message: ${message.value}`;
     let username = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-    let message = document.getElementById("messages").value;
-
-    let messagebody = "Nam" + username +
-     "<br/> Phon" + message +
-     "<br/> mail" + email;
+    let email = document.getElementById("emailid").value;
+    let textmsg = document.getElementById("message").value;
+    let  messagebody = "Name:" + username +
+    "<br/> Email Id: " +  email +
+    "<br/> Message:"  +  textmsg;
+    // let messagebody = "Name:"+ username ;
+    // let messagebody1 = "messags:" + textmsg;
+    // let messagebody = "mail:" + Emails;
     Email.send({
         Host : "smtp.elasticemail.com",
         Username : "mohamedraiyan158@gmail.com",
         Password : "848042E7C8E5815E06D9EBC1C836411155DA",
         To : "mohamedraiyan158@gmail.com",
         From :"mohamedraiyan158@gmail.com",
-        Subject : "This is the subject",
+        Subject : "Subject",
         Body : messagebody
-    }).then(
-      message => alert(message)
+        }).then(
+      message => {
+        if(message == 'OK')
+        {
+            swal({
+                title: "great",
+                text: "sucessfully send your request",
+                icon: "success",
+              });
+        }
+              else{
+                swal({
+                    title: "error!",
+                    text: "please fill a form",
+                    icon: "error",
+                  });
+              }
+
+        }
     );
 }
-
-// form.addEventListener("submit", () => {
-//     emailsend()
-// });
 
 // function emailsend() {
 // var username = document.getElementById('name').value
