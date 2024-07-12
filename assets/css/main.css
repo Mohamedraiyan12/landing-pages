@@ -10,6 +10,9 @@ header a{
   color: hsl(0, 0%, 48%);
   text-decoration: none;
 }
+p{
+  text-align: justify;
+}
 .navbarouter{
   background: white;
   position: sticky;
